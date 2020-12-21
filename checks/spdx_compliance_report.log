@@ -3,7 +3,9 @@ SPDX NON-COMPLIANT FILES
 /usr/local/workspace/Caravel-SOFA-HD/README.md
 /usr/local/workspace/Caravel-SOFA-HD/source_commit_hash.txt
 /usr/local/workspace/Caravel-SOFA-HD/doc/caravel_datasheet.ps
+/usr/local/workspace/Caravel-SOFA-HD/mag/.magicrc
 /usr/local/workspace/Caravel-SOFA-HD/mag/clamp_list.txt
+/usr/local/workspace/Caravel-SOFA-HD/maglef/.magicrc
 /usr/local/workspace/Caravel-SOFA-HD/openlane/chip_dimensions.txt
 /usr/local/workspace/Caravel-SOFA-HD/openlane/mgmt_protect/pdn.tcl
 /usr/local/workspace/Caravel-SOFA-HD/spi/lvs/DFFRAM.spice
@@ -90,6 +92,7 @@ SPDX NON-COMPLIANT FILES
 /usr/local/workspace/Caravel-SOFA-HD/verilog/OpenFPGA_Verilog/sub_module/wires.v
 /usr/local/workspace/Caravel-SOFA-HD/checks/caravel.magic.namelist
 /usr/local/workspace/Caravel-SOFA-HD/checks/caravel.magic.typelist
+/usr/local/workspace/Caravel-SOFA-HD/checks/compare_caravel.txt
 /usr/local/workspace/Caravel-SOFA-HD/OpenFPGA_task/design_variables.yml
 /usr/local/workspace/Caravel-SOFA-HD/OpenFPGA_task/generate_fabric.openfpga
 /usr/local/workspace/Caravel-SOFA-HD/OpenFPGA_task/generate_testbench.openfpga

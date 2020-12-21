@@ -5,8 +5,8 @@ Step 0 done without fatal errors.
 {{LICENSE COMPLIANCE PASSED}} Apache-2.0 LICENSE file was found in project root
  No third party libraries found.
 Step 1 done without fatal errors.
-{{SPDX COMPLIANCE WARNING}} Found 105 non-compliant files with the SPDX Standard. Check full log for more information
-SPDX COMPLIANCE: NON-COMPLIANT FILES PREVIEW: ['/usr/local/workspace/Caravel-SOFA-HD/README.md', '/usr/local/workspace/Caravel-SOFA-HD/source_commit_hash.txt', '/usr/local/workspace/Caravel-SOFA-HD/doc/caravel_datasheet.ps', '/usr/local/workspace/Caravel-SOFA-HD/mag/clamp_list.txt', '/usr/local/workspace/Caravel-SOFA-HD/openlane/chip_dimensions.txt', '/usr/local/workspace/Caravel-SOFA-HD/openlane/mgmt_protect/pdn.tcl', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/DFFRAM.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/chip_io.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/digital_pll.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/gpio_control_block.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/simple_por.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/storage.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/user_id_programming.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/user_proj_example.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/user_project_wrapper.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/mgmt_core.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/mgmt_protect.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/mgmt_protect_hv.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/mprj2_logic_high.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/mprj_logic_high.spice']
+{{SPDX COMPLIANCE WARNING}} Found 108 non-compliant files with the SPDX Standard. Check full log for more information
+SPDX COMPLIANCE: NON-COMPLIANT FILES PREVIEW: ['/usr/local/workspace/Caravel-SOFA-HD/README.md', '/usr/local/workspace/Caravel-SOFA-HD/source_commit_hash.txt', '/usr/local/workspace/Caravel-SOFA-HD/doc/caravel_datasheet.ps', '/usr/local/workspace/Caravel-SOFA-HD/mag/.magicrc', '/usr/local/workspace/Caravel-SOFA-HD/mag/clamp_list.txt', '/usr/local/workspace/Caravel-SOFA-HD/maglef/.magicrc', '/usr/local/workspace/Caravel-SOFA-HD/openlane/chip_dimensions.txt', '/usr/local/workspace/Caravel-SOFA-HD/openlane/mgmt_protect/pdn.tcl', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/DFFRAM.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/chip_io.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/digital_pll.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/gpio_control_block.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/simple_por.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/storage.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/user_id_programming.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/user_proj_example.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/user_project_wrapper.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/mgmt_core.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/mgmt_protect.spice', '/usr/local/workspace/Caravel-SOFA-HD/spi/lvs/mgmt_protect_hv.spice']
  Executing Step 2 of 4: Checking YAML description.
  YAML file valid!
 Step 2 done without fatal errors.
@@ -23,7 +23,8 @@ b'Going into /usr/local/workspace/Caravel-SOFA-HD/mag'
 b'Removing manifest'
 b'Fetching manifest'
 b'Running sha1sum checks'
- Nothing Happened
+ Manifest Checks Failed. Please rebase your Repository to the latest Caravel master.
+.magicrc: FAILED
  Documentation Checks Passed.
  Makefile Checks Passed.
 instance caravel found
